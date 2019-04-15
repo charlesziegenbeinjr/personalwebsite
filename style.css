@@ -28,28 +28,38 @@ header {
 
 .grid-pages > a {
   font-size: 16px;
-  text-align: center;
   text-decoration: none;
   color: black;
 }
 
+
 :root {
-  --mainColor: #ff9800;
-}
-a {
-  background:
-     linear-gradient(
-       to bottom, var(--mainColor) 0%,
-       var(--mainColor) 100%
-     );
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 4px 4px;
-  color: #000;
-  text-decoration: none;
-  transition: background-size .2s;
+  --Color: #ff3333;
 }
 
-a:hover {
-  background-size: 4px 50px;
+/* a {
+  background:
+     linear-gradient(
+       to right,
+       var(--Color) 0%,
+       var(--mainColor) 5px,
+       transparent 5px
+     );
+    background-repeat: repeat-x;
+    background-size: 100%;
+  color: #000;
+  padding-left: 10px;
+  text-decoration: none;
+} */
+
+.grid-pages > a:hover {
+  font-weight: bold;
+  background:
+     linear-gradient(
+       to right,
+       var(--Color) 0%,
+       var(--Color) 5px,
+       transparent
+     );
+     transition: .2s;
 }
