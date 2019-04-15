@@ -1,3 +1,29 @@
+html {
+  background-color: #DBDADA;
+}
+
 header {
-  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#name {
+  width: 25%;
+  float: left;
+}
+
+.differentpagesgrid {
+  width: 50%;
+  float: right;
+}
+
+.grid-pages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.grid-pages > a {
+  text-align: center;
+  text-decoration: none;
 }
