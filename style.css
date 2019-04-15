@@ -1,5 +1,5 @@
 html {
-  background-color: #DBDADA;
+  background-color: #F0EFEF;
 }
 
 header {
@@ -8,6 +8,8 @@ header {
 }
 
 #name {
+  padding-top: 22px;
+  font-size: 30px;
   width: 25%;
   float: left;
 }
@@ -19,11 +21,35 @@ header {
 
 .grid-pages {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
+  padding-top: 30px;
 }
 
 .grid-pages > a {
+  font-size: 16px;
   text-align: center;
   text-decoration: none;
+  color: black;
+}
+
+:root {
+  --mainColor: #ff9800;
+}
+a {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+a:hover {
+  background-size: 4px 50px;
 }
