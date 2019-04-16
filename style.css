@@ -20,14 +20,19 @@ header {
 }
 
 .grid-pages {
-  padding-top: 30px;
+margin-top: 32px;
 }
 
-nav {
+.grid-pages {
   float: right;
 }
 
 .grid-pages > a {
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  background: ##F0EFEF;
   padding-right: 5px;
   padding-left: 5px;
   font-size: 16px;
@@ -37,18 +42,8 @@ nav {
 }
 
 .grid-pages > a:hover {
-  box-shadow: inset 0 0 0 25px #53a7ea;
-}
-
-.grid-pages > a {
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-    background: ##F0EFEF;
-    /* padding: 20px; */
-}
-
-.grid-pages > a:hover {
-    background: #eee;
+  box-shadow: inset 10px 0 0 25px #53a7ea;
+  border: 1px solid black;
+  padding: 5px;
+  background: #eee;
 }
