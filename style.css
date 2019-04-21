@@ -1,14 +1,41 @@
-body {
-  background-color: #F0EFEF;
+.pageimage {
+  background-image: url(https://s3.amazonaws.com/fedscoopwp-media/wp-content/uploads/2015/01/23152637/2014_09_Optimized-iStock_000041637814_Large.jpg);
+  display: flow-root;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  -webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -ms-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s ease;
+}
+
+.frontpage {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  -webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -ms-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 5s ease;
+  position: relative;
+  bottom: 670px;
+
 }
 
 .header {
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
+  display: flow-root;
 }
 
 #name {
   padding-top: 22px;
+  padding-left: 10px;
   font-size: 30px;
   width: 25%;
   position: relative;
@@ -17,7 +44,7 @@ body {
 
 .grid-pages {
   margin-top: 32px;
-    float: right;
+  float: right;
 }
 
 .grid-pages > a {
