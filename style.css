@@ -113,7 +113,7 @@ main {
   width: 1000px;
 }
 
-#introductionparagraph {
+#introductionparagraph1, #introductionparagraph2 {
   margin-left: auto;
   margin-right: auto;
   width: 800px;
