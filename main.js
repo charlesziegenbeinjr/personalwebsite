@@ -10,10 +10,13 @@ $(function() {
 	});
 });
 
-$(document).ready(function hithere() {
-	$('#hithere').fadeIn(500).delay(1000).fadeOut(500);
+
+$(document).ready(function() {
+	$(function hithere() {
+		$('#hithere').fadeIn(500).delay(1000).fadeOut(500);
+	})
 });
 
-$.when( hithere() ).done(function() {
-	$('#main').show(250);
-});
+$(function loadmain() {
+	$('#main').delay(3000).fadeIn(500);
+})
