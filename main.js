@@ -9,3 +9,11 @@ $(function() {
 		}
 	});
 });
+
+$(document).ready(function hithere() {
+	$('#hithere').fadeIn(500).delay(1000).fadeOut(500);
+});
+
+$.when( hithere() ).done(function() {
+	$('#main').show(250);
+});
