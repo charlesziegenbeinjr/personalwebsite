@@ -60,7 +60,7 @@ main {
   padding-top: 22px;
   padding-left: 10px;
   font-size: 30px;
-  width: 25%;
+  width: 38%;
   position: relative;
   float: left;
 }
@@ -113,11 +113,15 @@ main {
   width: 1000px;
 }
 
-#introductionparagraph1, #introductionparagraph2 {
+#introductionparagraph1, #introductionparagraph2, #noteforinformation {
   margin-left: auto;
   margin-right: auto;
   width: 800px;
   font-size: 20px;
+}
+
+#noteforinformation {
+  color: red
 }
 
 ul {
