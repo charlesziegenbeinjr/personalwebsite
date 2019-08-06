@@ -1,69 +1,84 @@
-<!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <!-- Link CSS Stylesheet -->
-  <link href="style.css" type="text/css" rel="stylesheet">
-  <!-- FONTS TO BE USED -->
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <!-- END OF FONTS TO BE USED -->
-  <meta name="keywords" content="Charlie Ziegenbein Jr., Charles Ziegenbein Jr., Charlie Ziegenbein">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
   <meta name="author" content="Charles Ziegenbein Jr.">
-  <meta name="description" content="Welcome to the personal website of Charles (Charlie) Ziegenbein Jr. Thanks for taking a look!">
   <title>Charles Ziegenbein Jr.</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
-
-<body>
-    <h1 id="hithere">Hi There!</h1>
-    <main id="main">
-    <div id="frontpage">
-      <div id="scroll" class="header">
-        <div id="name">Charles Ziegenbein Jr.</div>
-        <div class="differentpagesgrid">
-          <nav class="grid-pages">
-            <a href="#">My Projects</a>
-            <a href="#">Research</a>
-            <a href="#">Dashboard</a>
-            <a href="#">Interesting Stuff</a>
-          </nav>
-        </div>
-      </div>
+<body class="text-center">
+  
+  <main>
+    <div class="jumbotron text-center">
+      <h1> Charles Ziegenbein Jr.</h1>
+      <nav id="topnav">
+        <a class="active" href="">Home</a> |
+        <a href="">About Me</a> |
+        <a href="">Dashboard</a> |
+        <a href="">Research and Experience</a> |
+        <a href="">Interesting Things</a>
+      </nav>
     </div>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+          <p id="introduction">Welcome to my Personal Website!</p>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"></div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+      </div>
+      <div class="row height">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
 
-    <div class="spacer"></div>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+          <div class="myCarousel">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+            
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+              </ul>
+            
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://www.sloan.com/sites/default/files/2018-07/logo-primary-reversed.png" alt="Sloan Valve Logo">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://publicaffairs.wustl.edu/wp-content/uploads/2015/07/2linehrzposRGB1000-01-1d0gefl-e1517349523325.png"
+                    alt="Washington University In St. Louis Logo">
+                </div>
+              </div>
+            
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+        </div>
 
-    <div class="maincontent" id="content">
-      <div class="introduction">
-        <p id="introductionparagraph1">
-          My name is Charles (Charlie) Ziegenbein Jr. Thanks for visiting my personal website, and I hope you enjoy! Here are some quick facts about me:
-        </p>
-        <ul>
-          <li>School Currently Attending: Washington University in St. Louis</li>
-          <li>Major: Computer Science</li>
-          <li>Minor(s): Mathematics/Statistics, German</li>
-          <li>Research/Academic Interests: Cyber Security, Data Science and Analytics</li>
-        </ul>
-        <p id="introductionparagraph2">
-          While this website is designed to provide information about myself and my work, there is some information that is left out for security
-          purposes. If you are interested in learning more about myself and what I do, please don't hesitate to contact me at: <a href="mailto:charlie.ziegenbein@wustl.edu?Subject=Information%20Request">charlie.ziegenbein@wustl.edu</a>.
-        </p>
-        <br />
-        <p id="noteforinformation">
-          A Note For Those Requesting More Information: <br /> <br />
-          These requests will be analyzed for authenticity, so please make sure to explain the reasoning behind your request! Thank you for your cooperation!
-        </p>
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
       </div>
     </div>
   </main>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
-<script src="main.js"></script>
-
+  
+  
 </body>
-
-</html>

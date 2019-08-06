@@ -1,132 +1,60 @@
-html, body {
-     overflow: hidden;
-     font-family: 'Ubuntu', sans-serif;
+.jumbotron {
+  background-color: #272626;
+  border-radius: 0;
 }
 
-main {
-  display: none;
+h1 {
+  display: block;
+  color: white;
 }
 
-#hithere {
-  font-size: 150px;
-  padding-top: 50px;
-  text-align: center;
-  display: none;
+#topnav {
+  margin-top: 30px;
+  color: white;
 }
 
-#frontpage {
-  -webkit-animation: fadein  1s;
-       -moz-animation: fadein 1s;
-        -ms-animation: fadein 1s;
-         -o-animation: fadein 1s;
-            animation: fadein 1s;
+#topnav > a {
+  color: white;
 }
 
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+#topnav > a:hover {
+  text-decoration: underline;
 }
 
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+.active {
+  text-decoration: underline;
 }
 
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+.row {
+  color: #272626;
 }
 
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+.row > div {
+  padding: 0px;
 }
 
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-.header {
-  box-sizing: border-box;
-  display: -webkit-box;
-  position: fixed;
-  z-index: 2;
-  background-color: white;
-  padding-bottom: 10px;
-}
-
-#name {
-  padding-top: 22px;
-  padding-left: 10px;
+#introduction {
   font-size: 30px;
-  width: 38%;
-  position: relative;
-  float: left;
 }
 
-.differentpagesgrid {
-  margin-left: 420px;
+.height {
+  height: 500px;
+  margin-bottom: 100px;
 }
 
-.grid-pages {
-  margin-top: 32px;
-  float: right;
+.mycarousel {
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
 }
 
-.grid-pages > a {
-  -moz-transition: all .15s ease-in;
-  -o-transition: all .15s ease-in;
-  -webkit-transition: all .15s ease-in;
-  transition: all .15s ease-in;
-  background: white;
-  padding-right: 2px;
-  padding-left: 2px;
-  font-size: 16px;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-  margin-left: 3px;
-  margin-right: 3px;
-}
-
-.grid-pages > a:hover {
-  box-shadow: inset 10px 0 0 25px #53a7ea;
-  border: 1px solid black;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background: #eee;
-}
-
-.maincontent {
-  padding-left: 10px;
-  display: flow-root;
-}
-
-.spacer {
-  height: 100px;
-}
-
-.maincontent {
-  margin-left: auto;
-  margin-right: auto;
+.carousel-item > img {
   width: 1000px;
+  height: 400px; 
 }
 
-#introductionparagraph1, #introductionparagraph2, #noteforinformation {
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
-  font-size: 20px;
+.carousel-control-next-icon, .carousel-control-previous-icon {
+  color: black;
 }
 
-#noteforinformation {
-  color: red
-}
 
-ul {
-  width: 600px;
-  font-size: 18px;
-  margin-left: auto;
-  margin-right: auto;
-}
