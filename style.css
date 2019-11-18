@@ -1,6 +1,10 @@
 .jumbotron {
-  background-color: #272626;
+  background-color: grey;
   border-radius: 0;
+}
+
+body {
+  background-color: #272626;
 }
 
 h1 {
@@ -43,18 +47,22 @@ h1 {
 }
 
 .mycarousel {
-  padding-top: 100px;
+  padding-top: 20px;
   width: 100%;
   height: 100%;
+  background-color: red;
 }
 
-.carousel-item > img {
-  width: 1000px;
+img {
+  width: 900px;
   height: 400px; 
 }
 
-.carousel-control-next-icon, .carousel-control-previous-icon {
-  color: black;
+.buttons {
 }
+
+
+
+
 
 
