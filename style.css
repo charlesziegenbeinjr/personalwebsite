@@ -52,15 +52,34 @@ h1 {
   height: 100%;
 }
 
-img {
+.recent_events {
+  margin-top: 50px;
+}
+
+.buttons {
+  color: black;
+}
+
+.carousel-indicators {
+  position: relative;
+}
+
+.tempr:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.carousel-item > img {
   width: 70%;
   height: 70%;
   cursor: help;
 }
 
+
+/* This section of CSS deals with the About Me and  */
 .imgrow {
   margin-top: 50px;
-  padding-right: 300px;
   border: 5px solid grey;
 }
 .imgrow > div {
@@ -78,12 +97,42 @@ img {
 #headshot  {
   height: auto;
   width: 70%;
+  text-align: center;
 }
 
-.buttons {
-  color: black;
+.tempc1 {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
 }
 
-.carousel-indicators {
-  position: relative;
+.tempc2 {
+  float: right;
+  width: 100%;
+  padding: 10px;
+}
+
+.tempc2 > ul {
+  font-size: 20px;
+}
+
+.tempc2 > h3, h2 {
+  text-align: center;
+}
+
+.tempc2 > h2 > a:hover {
+  color: yellow;
+}
+
+.tempc2 > ul > a:hover {
+  color: yellow;
+}
+
+#me {
+  padding-top: 10px;
+  width: 100%;
+}
+
+#me > li > a:hover {
+  color: yellow;
 }
