@@ -1,6 +1,10 @@
 .jumbotron {
-  background-color: grey;
+  background-color: white;
   border-radius: 0;
+}
+
+.jumbotron > h1 {
+  color: #272626;
 }
 
 body {
@@ -14,11 +18,11 @@ h1 {
 
 #topnav {
   margin-top: 30px;
-  color: white;
+  color: #272626;
 }
 
 #topnav > a {
-  color: white;
+  color: #272626;
 }
 
 #topnav > a:hover {
@@ -80,7 +84,7 @@ h1 {
 /* This section of CSS deals with the About Me and  */
 .imgrow {
   margin-top: 50px;
-  border: 5px solid grey;
+  border: 5px solid white;
 }
 .imgrow > div {
   padding: 50px;
@@ -135,4 +139,12 @@ h1 {
 
 #me > li > a:hover {
   color: yellow;
+}
+
+footer {
+  background-color: white;
+}
+
+footer > div {
+  padding: 50px;
 }
