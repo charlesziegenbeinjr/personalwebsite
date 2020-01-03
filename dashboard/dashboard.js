@@ -26,15 +26,9 @@ function render(items) {
 	articletitle.innerHTML = items.title;
 	var articlelink = document.createElement("a");
 	articlelink.href = items.url;
-	var space1 = document.createElement("p");
-	space1.innerHTML = " ~ ";
 	articlelink.innerHTML = "Link To Article Here";
-	var space2 = document.createElement("p");
-	space2.innerHTML = " ~ ";
 	article.appendChild(articletitle);
-	article.appendChild(space1);
 	article.appendChild(articlelink);
-	article.appendChild(space2);
 	article.classList.add("listitems");
 	document.getElementById("newslist").appendChild(article);
 }
