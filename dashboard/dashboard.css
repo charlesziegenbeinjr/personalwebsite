@@ -32,3 +32,7 @@
 	/*background-color: white;*/
 	font-size: 20px;
 }
+
+.listitems > a {
+	color: yellow;
+}

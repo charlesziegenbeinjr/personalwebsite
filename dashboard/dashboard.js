@@ -7,7 +7,7 @@ if (this.readyState == 4 && this.status == 200) {
     var newVar = JSON.parse(this.responseText);
     console.log(newVar);
 
-    for (var i = 0; i < 10 ; ++i) {
+    for (var i = 0; i < 10 ; i++) {
       render(newVar.articles[i]);
     }
 
@@ -32,3 +32,25 @@ function render(items) {
 	article.classList.add("listitems");
 	document.getElementById("newslist").appendChild(article);
 }
+/*
+var stock_api = "NR81AQWKESD5BSF0";
+
+var get_stock = new XMLHttpRequest();
+get_stock.onreadystatechange = function() {
+	if (this.readyState == 4 && this.status == 200) {
+		var newVar = JSON.parse(this.responseText);
+		console.log(newVar);
+		for (var i = 0; i < 5; i++) {
+			render(newVar.data[i]);
+		}
+	} else if (this.readyState == 4) {
+		console.log(this.responseText);
+	}
+}
+
+get_stock.open("GET", "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=5min&apikey=NR81AQWKESD5BSF0", true);
+get_stock.setRequestHeader("x-api-key", get_stock);
+get_stock.send();
+
+function render(items)
+*/
