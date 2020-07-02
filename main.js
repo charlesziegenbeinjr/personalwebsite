@@ -9,3 +9,5 @@ function pop_up(i) {
 		alert("To learn more about my experience at OSRAM GmbH as a Competitor Surveillance Intern , please go to the 'Research and Experience' Page");
 	}
 }
+
+$(".backgroundimage").fadeTo(2000, .5);
