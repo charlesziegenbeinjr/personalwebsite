@@ -1,0 +1,9 @@
+html, body {
+  height: 100%;
+  background-color: black;
+}
+
+.cover-container {
+  max-width: 100%;
+  background-color: black;
+}

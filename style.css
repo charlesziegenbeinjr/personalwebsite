@@ -81,6 +81,10 @@ a, a:focus, a:hover {
   text-align: center;
 }
 
+.work-notes {
+  display: none;
+}
+
 
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -134,3 +138,28 @@ a, a:focus, a:hover {
     width: 100%;
   }
 }
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.left {
+  float: left;
+  text-align: left;
+}
+
+button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.work-notes {
+  text-align: left !important;
+}
+
