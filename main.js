@@ -3,6 +3,7 @@ var stamp1 = 1;
 var stamp2 = 1;
 var stamp3 = 1;
 var stamp4 = 1;
+var stamp5 = 1;
 
 ScrollReveal().reveal('#skills-header', { 
     delay: 150,
@@ -43,6 +44,19 @@ ScrollReveal().reveal('.four', {
 ScrollReveal().reveal('.reveal', {
     delay: 200
 });
+
+document.getElementById("peraton-info").addEventListener("click", function () {
+
+    if (stamp0 == 1) {
+        $("#peraton-desc").show("fast");
+        document.getElementById("peraton-info").innerHTML = "Hide Information"
+        stamp0 = 0;
+    } else {
+        $("#peraton-desc").hide("fast");
+        document.getElementById("peraton-info").innerHTML = "Show Information"
+        stamp0 = 1;
+    }
+}, false);
 
 document.getElementById("cne-info").addEventListener("click", function () {
 
@@ -109,6 +123,20 @@ document.getElementById("osram-info").addEventListener("click", function() {
         $("#osram-desc").hide("fast");
         document.getElementById("osram-info").innerHTML = "Show Information"
         stamp4 = 1;
+    }
+
+}, false);
+
+document.getElementById("covid-info").addEventListener("click", function() {
+
+    if (stamp5 == 1) {
+        $("#covid-desc").show("fast");
+        document.getElementById("covid-info").innerHTML = "Hide Information"
+        stamp5 = 0;
+    } else {
+        $("#covid-desc").hide("fast");
+        document.getElementById("covid-info").innerHTML = "Show Information"
+        stamp5 = 1;
     }
 
 }, false);

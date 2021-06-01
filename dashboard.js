@@ -55,5 +55,18 @@ function setISS(data) {
 }
 
 
+function getLocation() {
+    let address = document.getElementById("address").value;
+    console.log(address);
+    geocoder.geocode({ 'address': address }, function (results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+            var latitude = results[0].geometry.location.lat();
+            var longitude = results[0].geometry.location.lng();
+            alert(latitude);
+            alert(longitude);
+        }
+    });
+} 
+    
 document.addEventListener("DOMContentLoaded", getAPOD, false);
 document.addEventListener("DOMContentLoaded", getISS, false);
