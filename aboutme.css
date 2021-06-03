@@ -119,10 +119,10 @@ html, body {
 
 }
 
-@media (min-width: 62em) {
-  /* .featurette-heading {
-    margin-top: 7rem;
-  } */
+@media (max-width: 62em) {
+  .quickskill {
+    display: none;
+  }
 }
 
 #skills-header {
@@ -130,7 +130,7 @@ html, body {
 }
 
 .quickskill {
-  visibility: hidden;
+  display: hidden;
 }
 
 .quickskill > p {
@@ -148,4 +148,20 @@ html, body {
 
 #paper, #paper:focus, #paper:hover {
   color: black !important;
+}
+
+a {
+  color: black;
+}
+
+#arrow {
+  font-size: 50px;
+  padding-top: 50px;
+  position: absolute;
+}
+
+.abp > p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
 }
