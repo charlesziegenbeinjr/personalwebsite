@@ -47,6 +47,10 @@ ScrollReveal().reveal('.reveal', {
     delay: 200
 });
 
+ScrollReveal().reveal('#arrow', {
+    delay: 200
+});
+
 var path = window.location.pathname;
 var page = path.split("/").pop();
 

@@ -155,6 +155,7 @@ a {
 }
 
 #arrow {
+  visibility: hidden;
   font-size: 50px;
   padding-top: 50px;
   position: absolute;
