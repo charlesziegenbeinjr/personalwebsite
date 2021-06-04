@@ -1,3 +1,11 @@
+#skills-header {
+  visibility: hidden;
+}
+
+.quickskill {
+  display: hidden;
+}
+
 html, body {
   height: 100%;
 }
@@ -123,14 +131,6 @@ html, body {
   .quickskill {
     display: none;
   }
-}
-
-#skills-header {
-  visibility: hidden;
-}
-
-.quickskill {
-  display: hidden;
 }
 
 .quickskill > p {
