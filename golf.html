@@ -1,0 +1,103 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Personal Website of Charles Ziegenbein Jr.">
+        <meta name="author" content="Charles Ziegenbein Jr.">
+        <title>Charles Ziegenbein Jr.</title>
+        <!-- FAVICON -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/fcc9ec5e74.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        
+        <div id="jumbo" class="jumbotron">
+            <h1>Golf Database</h1>
+            <div id="start-nav" class="row">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#"></a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li><a id="login-button" class="active">Sign In</a></li>
+                            <li><a id="register-button">Register</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="container">
+            
+            <div class="row login">
+                
+                <div class="col-12">
+                    <h1>Login Below</h1>
+                </div>
+
+                <br>
+
+                <div class="col-12">
+                    <div id="login-form">
+                        <label for="login-email">Your Email Address:</label>
+                        <input id="login-email" type="text">
+                        <br>
+                        <label for="login-password">Your Password:</label>
+                        <input id="login-password" type="password">
+                        <br>
+                        <input id="login-submit" type="submit">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row register">
+
+                <div class="col-12">
+                    <h1>Register Below</h1>
+                </div>
+                <br>
+                <div class="col-12">
+                    <div id="register-form">
+                        <label for="register-email">Desired Email Address:</label>
+                        <input id="register-email" type="text">
+                        <br>
+                        <label for="register-password">Desired Password:</label>
+                        <input id="register-password" type="password">
+                        <br>
+                        <input id="register-submit" type="submit">
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+
+    
+        
+        <!-- Firebase App -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.4/firebase-app.js"></script>
+        <!-- Firebase Auth, Firestore -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.4/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.4/firebase-firestore.js"></script>
+        <!-- Adding Personal Scripts -->
+        <script src="golf.js"></script>
+
+    </body>
+
+</html>
